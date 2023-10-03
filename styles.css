@@ -1,0 +1,119 @@
+.container {
+    display: grid;
+    width: 1200px;
+    margin: 0 auto; /*centers the div*/
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 2;
+    grid-gap: 20px;
+    
+}
+.p{
+    font-size: 18px;
+    color: #2D3748;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.sec1 {  /*header */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #63B3ED;
+    grid-column: 1 / span 2;
+    
+
+}
+.rounded-img {
+    flex: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    text-align: center;
+}
+.headt {  /*h1*/
+    flex: 1;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.headt2 { /*p*/
+    flex: 1;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title1 {
+    font-size: 32px;
+    color: #48BB78;
+}
+.title2 {
+    font-size: 32px;
+    color: #48BB78;
+}
+.dateAuth1 {
+    color: #718096;
+}
+.dateAuth2 {
+    color: #718096;
+}
+.sociHead {
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.arcHead {
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutHead {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.abtSec {
+    background-color: #E2E8F0;
+    padding: 5px;
+    text-align: center;  
+}
+.linkS {
+    color: #4299E1;
+    
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #48BB78;
+}
+.sec2 { /*our articles*/
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    max-width: 70%;
+    
+}
+.ima1 {
+    float: right;
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+}
+.ima2 {
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+}
+.sec3 {
+    grid-column: 2;
+    grid-row: 2;
+    
+} 
+
+.sec4 {
+    grid-column: 1 / span 2;
+    background-color: #2C5282;
+}
+.fooText {
+    color: #FFFFFF;
+}
+
